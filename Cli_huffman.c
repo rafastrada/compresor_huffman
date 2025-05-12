@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 				"\t'comprimir' : Comprime un archivo en uno nuevo con extensión \".huf\".\n"
 				"\t'descomprimir' : Descomprime un archivo de extensión \".huf\", obteniendo el archivo original."
 				"El resultado posee extensión \".dhu\".\n"
-			  )
+			  );
 	}
 
 	return 0;
