@@ -6,12 +6,13 @@
 int main(int argc, char *argv[])
 {
 	if (argc == 3) {
-		char *nombre_archivo = argv[2];
+		char *nombre_archivo = argv[2],
+			*operacion = argv[1];
 
-		if (strcmp(argv[1], "comprimir") == 0)
+		if (strcmp(operacion, "comprimir") == 0)
 			ArchivoCodificar(nombre_archivo);
 		else {
-			if (strcmp(argv[1], "descomprimir"))
+			if (strcmp(operacion, "descomprimir") == 0)
 				ArchivoDecodificar(nombre_archivo);
 		}
 	} else {
